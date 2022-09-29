@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-container{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+}
+.logo-container{
+    margin: 5px;
+
+}
+.nav-items{
+    display: flex;
+
+}
+.nav-item {
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: relative;
+    left: 50%;
+}
+.active-item{
+    color: red;
+}
+.action-container{
+    display: flex;
+    margin-left: 50%;   
+}
+.intro-section{
+    display: flex;
+    flex: 1;
+    margin-top: 50px;
+}
+.left-section{
+    margin: 10px;
+    padding: 10px;
+
+}
+.left-section h3{
+    font-size: 37px;
+    margin: 20px;
+}
+.left-section h1{
+    font-size: 50px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.sub-headlines{
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.sub-headline{
+    display:block;
+    margin: 5px;
+    padding: 5px;
+}
+.add-circle{
+    border: 2px solid;
+    padding: 5px 10px;
+    margin: 2px 2px;
+    border-radius: 50px;
+    background-color: tomato;
+    color: white;
+
+}
+.text{
+    display: block;
+    opacity: 0.5;
+    width: 512px;
+    height: 100px;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+.action-btns {
+    position: absolute;
+}
+
+.action-btn{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid tomato;
+    background-color: tomato;
+    color: white;
+}
+.right-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 0.6;
+        position: relative;
+
+    }
+
+.headphone-div img{
+    position: absolute;
+    top: -10%;
+    left: -11%;
+}
+.right-section .headphone-div .discount {
+    position: absolute;
+    z-index: 1;
+    top: 260px;
+    left: -49px;
+    filter: drop-shadow(-3px 5px 2px rgb(0 0 0 / 0.4));
+}
+.discount-content{
+    position: relative;
+    left: -205px;
+    z-index: 1;
+    color: white;
+    font-weight: 800;
+    top: 77px;
+    text-align: center;
+    align-items: center;
+}
+.discount-content h3{
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 27px;
+}
+.discount-content h1{
+    position: relative;
+    left: 27px;
+}
+
+.dots{
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 44%;
+}
+.right-section .dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 5px;
+    position:relative
+
+}
+
+.yellow-dot {
+    background-color: #FBD104;
+}
+.tomato-dot{
+    background-color: tomato;
+}
+.black-dot{
+    background-color: black;
+}
+.action-btn {
+    background-color: #FE5E35;
+    padding: 15px 30px;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 30px;
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 18px;
+    z-index: 1;
+}
+.action-btns .action-btn:nth-child(2) {
+    margin-left: 30px;
+}
+.action-button{
+    position: absolute;
+    top: 99%;
+    left: 40%;
+    background-color: #FE5E35;
+    padding: 15px 30px;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 30px;
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 18px;
+
+}
+
+/* Responsive */
+@media screen and (min-width:450px)and (max-width:1200px) {
+
+    .nav-container{
+        font-size: 12px;
+    }
+    .logo-container{
+        font-size: 12px;
+    }
+    .intro-section{
+        font-size: 4vmin;
+    }
+    .headphone-div img{
+        height: 550px;
+        width: auto;
+        top: 40%;
+        left: 20vh;
+    }
+    .right-section .headphone-div .discount{
+        width: auto;
+        height: 200px;
+        top: 440px;
+        left: 20vh;
+    }
+    .discount-content h3{
+        top: -27px;
+        color: black;
+        left: 320px;
+        font-size: 35px;
+
+    }
+    .discount-content h1{
+        top: -29px;
+        color: black;
+        left: 331px;
+    }
+    .text{
+        border: 2px solid rgb(122, 114, 114);
+        border-radius: 10px;
+        height: 600px;
+        font-size: 42px;
+        margin: 5px;
+        padding: 5px;
+    }
+    .dots{
+        top: 204vh;
+        left: 292px;
+    }
+    .action-button{
+        width: 150%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
